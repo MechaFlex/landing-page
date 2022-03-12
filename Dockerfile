@@ -8,4 +8,4 @@ RUN npm install
 
 RUN npm run build
 
-COPY ./build/ /usr/local/apache2/htdocs/
+COPY /build/ /usr/local/apache2/htdocs/
