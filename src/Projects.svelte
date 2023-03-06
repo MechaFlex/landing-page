@@ -10,13 +10,13 @@
 		{
             title: "Bingo",
             text: "Bingo is an online bingo board with two teams made for speedrun bingo races. It's made with vanilla JS and runs on a Node Express server.",
-            url: "http://bingo.mechaflex.ml",
+            url: "http://bingo.drake.ee",
             imgurl: "bingo.jpg"
         },
 		{
             title: "Sort",
             text: "This website let's you sort any list using the merge sort algorithm. The twist is that you do all the comparisons yourself. It is the first project I made using Svelte.",
-            url: "http://sort.mechaflex.ml",
+            url: "http://sort.drake.ee",
             imgurl: "sort.jpg"
         },
         {
@@ -28,13 +28,13 @@
 		{
             title: "Top List",
             text: "This was the second webpage I made during the second half of the web development course. It is made using vanilla HTML and CSS and jQuery with PHP to save the list.",
-            url: "http://topplista.mechaflex.ml",
+            url: "http://topplista.drake.ee",
             imgurl: "topplista.jpg"
         },
         {
             title: "Minecraft",
             text: "This was the first webpage I made during the first half of the web development course at GKC. Made using HTML and CSS.",
-            url: "http://minecraft.mechaflex.ml",
+            url: "http://minecraft.drake.ee",
             imgurl: "minecraft.jpg"
         }
     ]
