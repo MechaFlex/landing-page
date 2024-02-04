@@ -11,14 +11,14 @@ import { getContext } from "svelte";
 			<span class="textseg">Hello there!</span>
 			<span class="textseg">My name is Jacob</span>
 			<span class="textseg">I study IT at Chalmers University of Technology</span>
-			<span class="textseg">I have been a part of
+			<!-- <span class="textseg">I have been a part of
 				<img src="Images/nollkitds.png" alt="NollKIT">
 				<img src="Images/flashitds.png" alt="FlashIT">
 			</span>
 			<span class="textseg">I love 
 				<img src="Images/ts.svg" alt="TypeScript">
 				<img src="Images/svelte.svg" alt="Svelte">
-			</span>
+			</span> -->
 			<span class="textseg">🐉</span>
 		</div>
 		<div on:click={() => scrollToSlide(1)} id="downArrow" />

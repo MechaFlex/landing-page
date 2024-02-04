@@ -68,6 +68,7 @@
 	<PageHeader/>
 	<div id="stack">
 		<FirstImage/>
+      <!-- <Me/> -->
 		<Projects/>
 		<Reach/>
 	</div>

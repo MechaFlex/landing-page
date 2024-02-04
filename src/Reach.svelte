@@ -26,5 +26,5 @@
 </style>
 
 <div class="reachWrapper">
-    <a href="mailto:jacob.bentsson@rocketmail.com">jacob.bengtsson@rocketmail.com</a>
+    <a href="mailto:hello@drake.ee">hello@drake.ee</a>
 </div>
