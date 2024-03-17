@@ -6,4 +6,4 @@ COPY . .
 RUN npm run build
 
 FROM httpd:alpine
-COPY --from:builder /app/build /usr/local/apache2/htdocs
+COPY --from=builder /app/build /usr/local/apache2/htdocs
