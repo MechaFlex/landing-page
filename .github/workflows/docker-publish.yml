@@ -2,7 +2,7 @@ name: Docker
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 env:
   REGISTRY: ghcr.io
@@ -48,6 +48,7 @@ jobs:
 
       # Trigger webhook to update the deployment
       - name: Invoke deployment webhook
+        continue-on-error: true
         uses: distributhor/workflow-webhook@v3
         with:
           webhook_url: ${{ secrets.WEBHOOK_URL }}
