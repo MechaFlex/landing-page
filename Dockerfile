@@ -1,3 +1,9 @@
-FROM httpd:alpine
+FROM node:20 as builder
+WORKDIR /app
+COPY package.json .
+RUN npm install
+COPY . .
+RUN npm run build
 
-COPY /build/ /usr/local/apache2/htdocs/
+FROM httpd:alpine
+COPY --from:builder /app/build /usr/local/apache2/htdocs
